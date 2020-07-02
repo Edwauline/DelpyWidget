@@ -5,13 +5,6 @@ This project is based on the work of gwangyi : https://github.com/gwangyi/delpy
 The code was modified in order to include Delpy into the notebook as a widget and to be able to execute any Python code inside the notebook.
 
 ## Installation
-
-```bash
-pip install delpy
-jupyter nbextension install delpy --py --sys-prefix
-jupyter nbextension enable delpy --py --sys-prefix
-```
-
 For developer:
 
 ```bash
