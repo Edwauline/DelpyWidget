@@ -11,6 +11,10 @@ setup(
         author='Sungkwang Lee',
         author_email='gwangyi.kr@gmail.com',
         description='Blockly w/ Python on Jupyter Notebook',
+        data_files=[
+        # like `jupyter nbextension install --sys-prefix`
+            ("share/jupyter/nbextensions/delpy", ["delpy/static/*"])
+        ],
         classifiers=[
             'Development Status :: 3 - Alpha',
             'Programming Language :: Python :: 3',
