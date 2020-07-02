@@ -13,7 +13,7 @@ setup(
         description='Blockly w/ Python on Jupyter Notebook',
         data_files=[
         # like `jupyter nbextension install --sys-prefix`
-            ("share/jupyter/nbextensions/delpy", ["delpy/static/*"])
+            ("share/jupyter/nbextensions/delpy", ["delpy/static/index.js","delpy/static/delpy_block.js","delpy/static/delpy_blockly.js","delpy/static/delpy_javascript.js","delpy/static/delpy_python.js","delpy/static/lang.js","delpy/static/run.js"])
         ],
         classifiers=[
             'Development Status :: 3 - Alpha',
