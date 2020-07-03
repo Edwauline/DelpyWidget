@@ -2,14 +2,14 @@ from setuptools import setup
 
 
 setup(
-        name="delpy",
-        version="2017.12.12a0.dev3",
+        name="delpywidget",
+        version="0.0.1",
         packages=["delpy"],
         package_data={'delpy': ['*.xml', 'static/*']},
-        url='https://github.com/gwangyi/delpy',
+        url='https://github.com/Edwauline/DelpyWidget',
         license='MIT',
-        author='Sungkwang Lee',
-        author_email='gwangyi.kr@gmail.com',
+        author='Edwige Gros',
+        author_email='edwige.gros@laposte.net',
         description='Blockly w/ Python on Jupyter Notebook',
         data_files=[
         # like `jupyter nbextension install --sys-prefix`
